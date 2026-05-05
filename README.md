@@ -36,7 +36,7 @@ bcs601_4mw23cs119/
 ## Steps to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/reynol-31/bcs601_4mw23cs119.git
+   git clone https://github.com/reynol-31/BCS601-4MW23CS119
 
 2. Navigate to project folder:
    cd bcs601_4mw23cs119
