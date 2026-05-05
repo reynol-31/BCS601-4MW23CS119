@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BCS601-USNXXX Visitor Counter</title>
+    <title>BCS601-4MW23CS119 Visitor Counter</title>
 </head>
-<body>
-    <h1>Cloud Visitor Counter</h1>
-    <p>Total Visitors: {{ visits }}</p>
+
+<body style="margin:0; font-family:Arial, sans-serif; background-color:#f4f6f9;">
+
+    <div style="
+        width: 400px;
+        margin: 120px auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    ">
+
+        <h1 style="color:#2c3e50; margin-bottom: 20px;">
+            Cloud Visitor Counter
+        </h1>
+
+        <p style="font-size:18px; color:#555;">
+            Total Visitors
+        </p>
+
+        <p style="
+            font-size:40px;
+            font-weight:bold;
+            color:#3498db;
+            margin:10px 0;
+        ">
+            {{ visits }}
+        </p>
+
+        <p style="font-size:14px; color:#888;">
+            Deployed on Render Cloud Platform
+        </p>
+
+    </div>
+
 </body>
 </html>
